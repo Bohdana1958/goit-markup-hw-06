@@ -37,11 +37,6 @@
             </li>
           </ul>
         </nav>
-        <div class="menu-hamburger">
-          <svg class="hamburger-icon" width="32" height="22">
-            <use href="./images/icons.svg#icon-hamburger"></use>
-          </svg>
-        </div>
         <address class="address">
           <ul class="list address-list">
             <li>
@@ -56,6 +51,13 @@
             </li>
           </ul>
         </address>
+        <div class="menu-hamburger">
+          <button class="btn-hamburger" type="button" .js-open-menu>
+            <svg class="hamburger-icon icon" width="32" height="22">
+              <use href="./images/icons.svg#menu-burger"></use>
+            </svg>
+          </button>
+        </div>
       </div>
     </header>
     <main>
@@ -544,6 +546,17 @@
         </form>
       </div>
     </div>
+    <!-- Mobile window -->
+    <div class="backdrop-mobile">
+      <div class="mobile is-open" .js-menu-container>
+        <button class="mobile-btn modal-btn" type="button" .js-close-menu>
+          <svg class="btn-icon-mobile" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
