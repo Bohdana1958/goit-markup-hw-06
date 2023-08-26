@@ -1188,9 +1188,6 @@ overflow-y: auto;
   }
 }
 
-
-
-
 .backdrop.is-hidden .modal {
   transform: translateX(-50%) translateY(-70%);
   opacity: 0;
@@ -1383,16 +1380,13 @@ overflow-y: auto;
   visibility: hidden;
   pointer-events: none;
   transition: transform 250ms ease-in-out;
-  
-  
 }
 .sub-container{
+  position: relative;
   max-width: 428px;
   height: 100%;
   padding: 80px 35px 40px 40px;
   margin: 0 auto;
-  
-
 }
 .menu-container .menu-toggle {
   position: absolute;
@@ -1431,6 +1425,24 @@ overflow-y: auto;
 }
 .mobile-menu-list {
   min-width: 100%;
+}
+.mobile-btn{
+  background-color: var(--cornflower, #e7e9fc);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 24px;
+  min-height: 24px;
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 
