@@ -1385,6 +1385,14 @@ overflow-y: auto;
   
   
 }
+.sub-container{
+  max-width: 428px;
+  height: 100%;
+  padding: 80px 35px 40px 40px;
+  margin: 0 auto;
+  
+
+}
 .menu-container .menu-toggle {
   position: absolute;
 }
@@ -1395,15 +1403,13 @@ overflow-y: auto;
 }
 
 .contacts-box {
-
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  padding: 80px 35px 40px 40px;
   height: 100%;
   width: 100%;
   overflow-y: auto;
-  margin: 0 auto;
+  
 }
 
 .mobile-list{
@@ -1436,7 +1442,7 @@ overflow-y: auto;
   letter-spacing: 0.72px;
   color: var(--iris, #4d5ae5);
   text-transform: capitalize;
-  min-width: 100%;
+  max-width: 100%;
   margin-bottom: 40px;
 }
 @media screen and (max-width: 427.98px) {
