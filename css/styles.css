@@ -335,7 +335,7 @@ img {
   min-width: 320px;
   max-width: 426px;
 }
-@media screen and (min-width: 320px) and (min-device-pixel-ratio: 2),
+@media screen and (min-device-pixel-ratio: 2),
   screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx) {
     .list-hero{
@@ -345,8 +345,8 @@ img {
     ),
     url(../images/hero-img/bgmob@2x.jpg);
     }
-  
 }
+
 @media screen and (min-width: 768px) {
   .list-hero{
     max-width: 766px;
@@ -356,21 +356,24 @@ img {
   ),
   url(../images/hero-img/Dark-bgtab@1x.jpg);
   }
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+      .list-hero{
+        background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-img/Dark-bgtab@2x.jpg);
+      }
+  }
+  
 }
-@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2),
-  screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 2dppx) {
-    .list-hero{
-      background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/hero-img/Dark-bgtab@2x.jpg);
-    }
-}
+
+
 @media (min-width: 1158px) {
   .list-hero {
-    max-width: 1158px;
+    max-width: 1128px;
     padding: 188px 0;
     background-image: linear-gradient(
     rgba(46, 47, 66, 0.7),
@@ -378,18 +381,19 @@ img {
   ),
   url(../images/hero-img/people-office1desk@1x.jpg);
   }
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+      .list-hero{
+        background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-img/people-office1desk@2x.jpg);
+      }
+  }
 }
-@media screen and (min-width: 1158px) and (min-device-pixel-ratio: 2),
-  screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 2dppx) {
-    .list-hero{
-      background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/hero-img/people-office1desk@2x.jpg);
-    }
-}
+
 
 
 
