@@ -939,8 +939,6 @@ img {
 
 @media (min-width: 768px) {
   .footer-container {
-    display: flex;
-    flex-wrap: wrap;
     justify-content: start;
     align-items: baseline;
     gap: 24px;
@@ -950,6 +948,7 @@ img {
   .footer-container {
     flex-wrap: nowrap;
     justify-content: center;
+    gap: 0;
   }
 }
 
@@ -1052,7 +1051,7 @@ img {
 /* Subscribe */
 
 .subscribe-container {
-  min-width: 100%;
+  max-width: 100%;
 }
 .subscribe-title {
   color: var(--white, #fff);
