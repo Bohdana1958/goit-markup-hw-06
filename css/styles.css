@@ -305,8 +305,6 @@ img {
   
 }
 .btn-hamburger {
-  /* background-color: #ffffff;
-  border: none; */
   min-height: 40px;
     min-width: 40px;
     display: flex;
@@ -317,14 +315,9 @@ img {
     background-color: transparent;
     cursor: pointer;
     border: none;
-    border-radius: 50%;
     outline: none;
 }
-@media screen and (min-width: 768px) {
-  .hamburger-icon {
-    display: none;
-  }
-}
+
 @media screen and (min-width: 768px) {
   .menu-hamburger {
     display: none;
@@ -1070,8 +1063,16 @@ img {
 }
 /* Subscribe */
 
-.subscribe-container {
-  max-width: 100%;
+
+@media screen and (max-width: 768px) {
+  .subscribe-container {
+    min-width: 100%;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .subscribe-container {
+    max-width: 100%;
+  }
 }
 .subscribe-title {
   color: var(--white, #fff);
@@ -1095,6 +1096,10 @@ img {
     display: inline-flex;
     gap: 24px;
   }
+}
+
+.sbc-label{
+  min-height: 100%;
 }
 
 .input-sbc {
