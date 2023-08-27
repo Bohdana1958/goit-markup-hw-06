@@ -386,7 +386,7 @@ img {
 
 @media (min-width: 1158px) {
   .list-hero {
-    max-width: 1128px;
+    max-width: 1440px;
     padding: 188px 0;
     background-image: linear-gradient(
     rgba(46, 47, 66, 0.7),
@@ -398,7 +398,6 @@ img {
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
       .list-hero{
-        background-position: 0;
         background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
